@@ -112,8 +112,9 @@ img {
 }
 
 .banner-textos h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 15px;
+  
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
 }
