@@ -105,7 +105,7 @@ img {
 }
 .banner-textos {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -161,7 +161,6 @@ img {
 }
 
 .grid-item:hover {
-  filter: opacity(0.9);
   transform: scale(1.04);
   /* background-color: darkseagreen; */
 }
@@ -196,14 +195,13 @@ img {
   text-shadow: 2px 4px 10px rgb(170, 161, 161);
 }
 
-
-
 /* SECTIONS NUEVOS PRODUCTOS */
 
 .container-products { 
   /* background-color: rgb(217, 226, 216); */
   width: 90%;
   margin: 0 auto;
+
 }
 
 .container-cards-foot {
@@ -216,7 +214,7 @@ img {
 }
 
 .card-img {
-  min-height: 22rem;
+  min-height: 200px;
   border: 1px solid black;
 
   background-size: cover;
@@ -227,17 +225,13 @@ img {
 }
 
 .card-img:hover {
-  filter: opacity(0.9);
   transform: scale(1.04);
 }
 
 .card-texto, h4, p {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 5px;
+  max-height: 150px;
   overflow: hidden;
-  padding: 1rem 1rem 0.5rem 1rem;
+  padding: 0rem 0.5rem 0.1rem 0.5rem;
   line-height: 1.5;
   letter-spacing: 2px;
   text-shadow: 2px 4px 10px rgb(170, 161, 161);
@@ -254,7 +248,7 @@ img {
   text-shadow: 2px 4px 10px rgb(170, 161, 161);
 }
 
-media (max-width: 768px) {
+/* media (max-width: 768px) {
   .logo {
     font-size: 2.5rem;
   }
@@ -280,53 +274,4 @@ media (max-width: 768px) {
 
   .banner-textos p {
     font-size: 1rem;
-  }
-}
-
-/* Teléfonos móviles */
-/* @media (max-width: 780px) {
-  header {
-    min-height: 100px;
-    justify-content: center;
-  }
-
-  .logo {
-    font-size: 2rem;
-    /* font-size: 2rem; */
-  /* }
-
-  nav ul {
-    flex-direction: column;
-    padding: 0;
-  }
-
-  nav li {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 12px;
-  }
-  .banner, img {
-    display: none;
   } */
-
-  /* .banner-textos {
-    display: none; */
-    /* top: 50%; */
-  /* }
-
-  .banner-textos h1 {
-    font-size: 1.2rem;
-    padding: 10px;
-  }
-
-  .banner-textos p {
-    font-size: 0.9rem;
-    padding-bottom: 20px;
-  }
-
-  .button {
-    display: none; */
-    /* width: 60px;
-    padding: 8px; */
-  /* }
-} */
