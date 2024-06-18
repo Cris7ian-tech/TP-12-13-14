@@ -112,7 +112,7 @@ img {
 }
 
 .banner-textos h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 15px;
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
@@ -201,7 +201,6 @@ img {
   /* background-color: rgb(217, 226, 216); */
   width: 90%;
   margin: 0 auto;
-
 }
 
 .container-cards-foot {
