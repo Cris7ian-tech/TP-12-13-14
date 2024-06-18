@@ -201,12 +201,13 @@ img {
 .container-products { 
   /* background-color: rgb(217, 226, 216); */
   width: 90%;
+  max-height: 100vh;
   margin: 0 auto;
 }
 
 .container-cards-foot {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(15rem, 1fr));
   grid-auto-rows: 22rem;
 
   gap: 20px;
